@@ -1,6 +1,6 @@
 <template>
   <div class="todo-container">
-    <h2>Todo</h2>
+    <h2>Todo App</h2>
     <div class="input-container">
       <input type="text" placeholder="Enter todo" v-model="newTodo" @keyup.enter="addTodo"/>
       <button type="button" @click="addTodo">Add</button>
