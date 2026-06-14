@@ -1,6 +1,7 @@
 <template>
   <div class="todo-container">
     <h2>Todo App</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, autem?</p>
     <div class="input-container">
       <input type="text" placeholder="Enter todo" v-model="newTodo" @keyup.enter="addTodo"/>
       <button type="button" @click="addTodo">Add</button>
