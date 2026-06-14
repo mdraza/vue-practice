@@ -1,0 +1,21 @@
+.completed{
+    text-decoration: line-through;
+    color: rgb(140, 139, 139);
+}
+.header{
+    width: 400px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+}
+.post{
+    padding: 10px;
+    border: 1px solid #333;
+}
